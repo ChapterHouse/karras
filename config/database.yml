@@ -5,7 +5,9 @@
 #   gem 'sqlite3'
 development:
   adapter: karras
-  database: db/development.sqlite3
+  host: localhost
+  port: 27017
+  database: test
   pool: 5
   timeout: 5000
 
