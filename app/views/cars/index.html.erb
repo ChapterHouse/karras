@@ -6,6 +6,7 @@
       <th>Name</th>
       <th>Size</th>
       <th>Doors</th>
+      <th>Company</th>
       <th></th>
       <th></th>
       <th></th>
@@ -18,6 +19,7 @@
         <td><%= car.name %></td>
         <td><%= car.size %></td>
         <td><%= car.doors %></td>
+        <td><%= car.company.name %></td>
         <td><%= link_to 'Show', car %></td>
         <td><%= link_to 'Edit', edit_car_path(car) %></td>
         <td><%= link_to 'Destroy', car, method: :delete, data: { confirm: 'Are you sure?' } %></td>
